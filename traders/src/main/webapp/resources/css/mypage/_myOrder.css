@@ -1,0 +1,35 @@
+@charset "EUC-KR";
+
+#title{
+width:90%;
+float:left;
+text-align: left;
+margin:5% 5% 5% 5%;
+font-size: 40px;
+}
+
+#ButDay,#ButWeek,#ButMon,#ButHalf,#ButEntire{
+    background-color: rgb(79,108,79);
+    color:white;
+    width:120px;
+    height:60px;
+    margin:0 20px 0 20px;
+    border:0;
+    outline:0;
+    border-radius: 4px;
+    font-size: 20px;
+  
+}
+table {
+margin:5%;
+width: 90%;
+border-top: 1px solid #444444;
+border-collapse: collapse;
+}
+th, td {
+border-bottom: 1px solid #444444;
+padding: 10px;
+}
+.clear{
+clear:both;
+}

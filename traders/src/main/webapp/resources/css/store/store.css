@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+@import
+	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap')
+	;
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+#main_image {
+	width: 100%;
+	height: 400px;
+	background: url("../../image/store/e1.jpg") no-repeat center;
+	/*이미지를 백그라운드로삽입 no-repeat center 하면 가운데로 모이고 양사이드부터짤림*/
+	background-size: 100%;
+	/*이미지 사이즈설정*/
+}
+
+#main_image_text {
+	padding: 100px 0 20px;
+	text-align: center;
+}
+
+#main_image_text h3 {
+	width: 200px;
+	height: 28px;
+	margin: 0 auto;
+}
+
+#menu_category {
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#menu_category ul {
+	padding: 0;
+	margin: 0;
+}
+
+#menu_category ul li {
+	width: 198px;
+	height: 24px;
+	float: left;
+	list-style: none;
+	padding: 0;
+	mragin: 0;
+	font-size: 20px;
+	font-family: 'Do Hyeon', sans-serif;
+	text-align: center;
+	color: #fff;
+	border: 1px solid rgb(7, 96, 195);
+}
+
+#menu_category ul a :hover {
+	background: rgb(7, 96, 195);
+}
+
+#box {
+	width: 1400px;
+	height: auto;
+	margin: 100px auto 0 auto;
+}
+
+#box h1 {
+	margin: 0;
+	color: rgb(7, 96, 195);
+}
+
+#box hr {
+	margin-bottom: 50px;
+}
+
+#img_slider {
+	width: 700px;
+	height: 700px;
+	float: left;
+}
+
+#map {
+	width: 600px;
+	height: 500px;
+	margin-left: 100px;
+	float: left;
+}
+
+#map img {
+	border: 1px solid;
+	padding: 3px;
+}
+
+#text_line {
+	width: 600px;
+	height: 200px;
+	text-align: left;
+	float: left;
+	margin-left: 100px;
+}
+
+#text_line h3 {
+	margin: 0;
+	color: rgb(7, 96, 195);
+}
+
+#text_line h4 {
+	margin: 0;
+}
+
+#menu_list {
+	width: 1400px;
+	height: 700px;
+	text-align: center;
+}
+
+#menu_list h2 {
+	margin-top: 100px;
+}
+
+#menu_list img {
+	margin-bottom: 30px;
+}
+
+#menu_list a {
+	text-align: center;
+	color: blue;
+	margin: 0 auto;
+}
+#main_1 {
+	margin: 10px 2px 10px 2px;
+}
+#community_tag{
+	overflow:hidden;
+	width: 250px;
+	height: 450px;
+	float: left;
+	background: #FFF;
+	padding: 20px 10px 10px 10px;
+	text-align: center;
+	position: relative;
+	display: inline;
+	margin: 10px 13px 10px 10px;
+}
+#comment{
+	width: 250px;
+	margin: 40px auto 0 auto; 
+}
+#main_2 {
+	margin: 10px 2px 10px 2px;
+	text-align: center;
+}
+#evaluation {
+	width: 300px;
+	height: 380px;
+	float: left;
+	background: #FFF;
+	padding: 20px 10px 10px 10px;
+	text-align: center;
+	position: relative;
+	display: inline;
+	margin: 10px 13px 10px 10px;
+}
+#mempic {
+	width: 40px;
+	height: 40px;
+	margin: 2px 5px 5px 20px;
+	float: left;
+}
+
+#cus_id { /*게스트 id*/
+	font-weight: bold;
+	margin: 0 70px;
+	width: 200px;
+	text-align: left;
+}
+
+#cus_tag {
+	margin: 0 70px;
+	width: 200px;
+	text-align: left;
+	color: rgb(7, 96, 195);
+}
+
+#picture {
+	width: 250px;
+	height: 200px;
+	border-radius: 3%;
+	text-align: center;
+}
+
+#icon {
+	width: 30px;
+	height: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px 60px 5px 60px;
+	float:left;
+}
+
+#grade {
+	width: 260px;
+	height: 40px;
+	padding: 0 30px 0 30px;
+	margin-top: 15px;
+}
+#star_img {
+	float: right;
+}
+#comment2{
+	
+}

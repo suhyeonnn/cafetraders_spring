@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+@import
+	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap')
+	;
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	margin: 0;
+}
+h2{
+	margin:0;
+}
+hr{
+	margin:0;
+}
+.clear {
+	clear: both;
+}
+#grayline{
+	width: 100%;
+	height: 8px;
+	background-color: #ededed;
+}
+#circle{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	color: white;
+	background-color: rgb(7, 96, 195);
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	margin:3px;
+}
+#headname{
+	font-size: 20px;
+	float: left;
+	font-weight: bold;
+}
+#header{
+	background-color: rgb(7, 96, 195);
+	color: white;
+	border-bottom: 1px solid #a0a0a0;
+}
+#header h1{
+	text-align: center;
+	margin: 0;
+}
+#payment_inpo{
+	border-bottom: 1px solid #a0a0a0;
+}
+#payment_inpo_text{
+	margin-left: 25px;
+}
+#text_dox{
+	width: 500px;
+	height: 50px;
+	margin: 10px 25px;
+}
+#Requests{
+	border-bottom: 1px solid #a0a0a0;
+}
+#point{
+	border-bottom: 1px solid #a0a0a0;
+	padding-bottom: 10px;
+}
+#point_text{
+	width: 140px;
+	height: 25px;
+	margin-left: 25px;
+	color: #a0a0a0;
+}
+#point_button{
+	height:25px;
+	border: none;
+	color: white;
+	background-color: rgb(7, 96, 195);
+}
+#payment_list_text{
+	width:500px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#menuname{
+	float: left;
+	width: 350px;
+}
+#payment_price{
+	float: right;
+	width: 150px;
+	text-align: right;
+}
+#menuoption{
+	font-size: 13px;
+	color: #a0a0a0;
+}
+#menulist_div{
+	border-bottom: 1px dashed #a0a0a0;
+}
+#point_text2{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color:red;
+}
+#point_pay{
+	float: right;
+	color: red;
+}
+#point_div{
+	/*border-bottom: 1px dashed #a0a0a0;*/
+}
+#pay_text{
+	float: left;
+	font-size: 20px;
+	color:rgb(7, 96, 195);
+}
+#pay_price{
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	color:rgb(7, 96, 195);
+}
+#payment_button{
+	width:100%;
+	height:50px;
+	margin: 0;
+	color: white;
+	background-color: rgb(7, 96, 195);
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+}

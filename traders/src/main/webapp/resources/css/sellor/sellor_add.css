@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+body{
+	height:100%;
+	margin: 0;
+   padding: 0;
+   
+}
+#main {
+	/*border:1px solid red;*/
+	margin:auto;
+	height:1100px;
+	width:1600px;
+}
+#background {
+	/*border:1px solid black;*/
+	background-image:url("https://images.unsplash.com/photo-1507915135761-41a0a222c709?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	background-size : cover;	
+	width:100%;
+	height:600px;
+}
+#Medit_img_cover{
+   position: absolute;
+   height: 600px;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.4);                                                                 
+   z-index:1;
+}
+#menu_font1{  
+	width:100%;
+	position:absolute;
+	color:#fff;
+	font-size:50pt;
+	text-align:center;
+	padding:15px 0;
+	z-index: 4;
+	margin: 10% 0% ;
+}
+#menu_font2{
+position:absolute ;
+	width:100%;
+	color:#fff;
+	font-size:15pt;
+	text-align:center;
+	font-weight: light;
+	margin:20% 0;
+	z-index: 4;
+}
+#Medit_menu{/*두개의 메뉴를 감싸는 전체 div*/
+
+	width:50%;
+	position:absolute;
+	float:left;
+	z-index: 3;
+	margin: 26% 37% ; 
+	text-align: center;
+}
+#Medit_menu ul{
+
+	width:100%;
+	text-align: center;
+	line-height: 50px;/*수평으로 텍스트를 가운데 오게함*/
+	z-index: 3;
+}
+
+#Medit_menu ul li{/*일대일문의, 자주하는 질문 각 객체속성*/
+	border:2px solid rgb(79,108,79) ;
+	float:left;
+	color: #fff;
+	width:200px;
+	height:50px;
+	text-align: center;
+	font-size: 18pt;
+	margin: 0;
+	padding:2px 0;
+	
+}
+#menu_list1{
+	background:  rgb(79,108,79);
+}
+#Medit_menu ul li:hover{
+	background: rgb(79,108,79);
+	transition-duration:0.4s; /*바탕색이 변경되는 시간을 늘려줌*/
+}
+#Medit_menu a:link {color:#fff; text-decoration: none;}/*밑줄없앰*/
+#Medit_menu a:visited{color:#fff; text-decoration: none; }/*방문후 글 색 변경없음*/
+#Medit_menu a:hoever{transition-duration:0.3s; color:#fff;}
+
+#main_left{
+	border:0px solid red;
+	height:1000px;
+	width:800px;
+	float:left;
+}
+#main_rright{
+	border-left:1px solid gray;
+	height:auto;
+	width:770px;
+	margin:20px 0 0 20px;
+	float:left;
+	padding:20px 0 0 0 ;
+}
+#main_right{
+	border:0px solid blue;
+	height:1000px;
+	width:750px;
+	margin:0 0 0 20px;	
+}
+
+/* 왼쪽에있는것들 ---------------------*/
+#main1 {
+/*	border:1px solid red;*/
+	margin:20px 0 0 0;	
+	font-size:20px;	
+}
+#nametext{
+	margin:0 0 5px 0;
+}
+
+#main_2pic{
+	/*border:2px solid skyblue;*/
+	width:100%;
+	height:500px;
+	background:#e4e4e4;	
+}
+
+#addpic{
+	width:100%;
+	height:500px;
+	
+}
+#main_left_B{
+	
+	margin:10px 0 10px 0;
+		text-align:right;
+	
+}
+#m_left_b{
+	width:150px;
+	height:60px;
+	margin:0 10px ;
+	font-size:15pt;
+	border-radius: 3px;
+	border:0;
+	outline: 0;
+	cursor:pointer;
+}
+
+
+
+/* 오른쪽에있는것들 ---------------------*/
+
+#main_4{
+	/*border:1px solid pink;*/
+	margin:20px 0 10px 10px;
+	font-size:20px;	
+}
+
+#writefield{
+	width:700px;
+	height:200px;
+	margin: 20px 0 20px 0;
+}
+
+#main_5 {
+	border:0px solid gray;
+		margin:50px 0 10px 10px;
+		font-size:20px;
+	
+}
+#tag {
+	width:700px;
+	height:100px;
+	margin: 20px 0 20px 0;
+}
+
+#main5 {  
+
+	margin:20px 0 0 0;
+	font-size:20px;
+}
+#all{
+	width:700px;
+	height:300px;
+	
+}
+
+#main_6 {
+
+		margin:10px;
+		text-align:center;
+
+	
+}
+#writeB {
+	margin:0 10px;
+	font-size:15pt;
+	height:40px;
+	width:80px;
+}
+#resetB{
+	margin:0 10px ;
+	font-size:15pt;
+	height:40px;
+	width:80px;
+}
+
+
+
+
+
+table.type09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+
+}
+table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type09 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type09 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+#x {
+	width:22px;
+	heigth:22px;
+}
+
+span{
+	text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

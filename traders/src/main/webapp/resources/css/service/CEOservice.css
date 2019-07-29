@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+
+html {
+	font-family: sans-serif;
+}
+
+
+
+#top_bar{/*맨 위 배경이미지가 깔려있고 메뉴바가 들어간 div*/
+	background-image: url(../../image/service/h3.jpg);
+	width:100%;
+	height:600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	
+}
+#img_cover{/*사진*/
+	
+   position: absolute;
+   height: 600px;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.4);                                                                 
+   z-index:1;
+
+	
+}
+#s_font1{/*맨 위 카페트레이더스*/
+	width:100%;
+	position:absolute;
+	color:#fff;
+	font-size:50pt;
+	text-align:center;
+	padding:15px 0;
+	z-index: 4;
+	margin: 13% 0% ;
+}
+#s_font2{/*카페트레이더스는 대한민국의 카페문화 텍스트*/
+
+	position:absolute ;
+	width:100%;
+	color:#fff;
+	font-size:15pt;
+	text-align:center;
+	font-weight: light;
+	margin:20% 0;
+	z-index: 4;
+}
+#s_menu{/*두개의 메뉴를 감싸는 전체 div*/
+
+	width:30%;
+	position:absolute;
+	float:left;
+	z-index: 3;
+	margin: 26% 35% ; 
+	text-align: center;
+}
+#s_menu ul{
+	
+	width:100%;
+	text-align: center;
+	line-height: 50px;/*수평으로 텍스트를 가운데 오게함*/
+	z-index: 3;
+}
+
+#s_menu ul li{/*일대일문의, 자주하는 질문 각 객체속성*/
+	border:2px solid rgb(79,108,79) ;
+	float:left;
+	color: #fff;
+	width:200px;
+	height:50px;
+	text-align: center;
+	font-size: 18pt;
+	margin: 0;
+	padding:2px 0;
+	
+}
+#list2{
+	background:  rgb(79,108,79);
+}
+#s_menu ul li:hover{
+	background: rgb(79,108,79);
+
+	transition-duration:0.4s; /*바탕색이 변경되는 시간을 늘려줌*/
+	
+	
+}
+#list1 a:link {color:#fff; text-decoration: none;}/*밑줄없앰*/
+#list1 a:visited{color:#fff; text-decoration: none; }/*방문후 글 색 변경없음*/
+#list1 a:hoever{transition-duration:0.3s; color:#fff;}
+#s_main{
+	
+	margin:0 200px;
+}
+#s_con{
+	border:1px solid blue;
+	margin:auto;
+	
+	
+}
+.clear{
+	claer:both;
+}

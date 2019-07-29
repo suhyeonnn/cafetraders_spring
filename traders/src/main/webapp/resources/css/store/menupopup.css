@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+@import
+	url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap')
+	;
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+#header {
+	height: 40px;
+	width: 100%;
+	background-color: rgb(7, 96, 195);
+	color:white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#header h2 {
+	margin: 0;
+}
+
+#imgdiv {
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+#img {
+	margin: 40px 40px;
+	border-radius: 50%;
+}
+
+#text_area {
+	padding-left: 20px;
+	width: 280px;
+	height: 250px;
+	float: left;
+}
+
+.count {
+	border: 0px;
+	text-align: center;
+}
+
+.button {
+	background-color: rgb(214, 214, 214);
+	border: 0px;
+	color: white;
+	width: 22px;
+	height: 22px;
+}
+
+#hot_ice {
+	margin-top: 20px;
+}
+
+#hot {
+	width: 110px;
+	padding: 5px 0;
+	float: left;
+	margin-right: 20px;
+	border: 1px solid #d36161;
+	color: #d36161;
+	text-align: center;
+	background-color: white;
+}
+
+#ice {
+	width: 110px;
+	padding: 5px 0;
+	float: left;
+	border: 1px solid #4db2ff;
+	color: #4db2ff;
+	text-align: center;
+	background-color: white;
+}
+#main{
+	border-bottom: 1px solid #a0a0a0;
+}
+#graydiv{
+	width: 100%;
+	height: 8px;
+	background-color: #ededed;
+	margin-bottom: 10px;
+}
+#take_choice {
+	width: 80%;
+	height: 50px;
+	margin:0 10%;
+	/*background-color: rgb(214, 214, 214);*/
+}
+#left_div{
+	width:40%;
+	float:left;
+}
+#right_div{
+	width:60%;
+	text-align: right;
+	float: left;
+}
+#radiobutton{
+	color: rgb(7, 96, 195);
+	background-color: rgb(7, 96, 195); 
+}
+#payment {
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	width: 50%;
+	height: 70px;
+	float: left;
+	background-color:rgb(7, 96, 195);
+	border-right: 1px solid white;
+}
+#payment2 {
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	width: 50%;
+	height: 70px;
+	float: left;
+	background-color:rgb(7, 96, 195);
+}

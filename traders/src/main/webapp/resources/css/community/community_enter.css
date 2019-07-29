@@ -1,0 +1,209 @@
+@charset "UTF-8";
+body{
+	margin:0;
+}
+
+#main {
+
+	margin: 0;
+	height:auto;
+	width:1600px;
+}
+.clear{
+	clear:both;
+}
+
+/* 왼쪽 div */
+/* 2일전 표시되있는 소스 ------------------------ */
+
+#leftdiv{/*왼쪽에 있는 모든 div를 감싸주는 전체 div*/
+
+	width:1000px;
+	height:auto;
+	float:left;
+	clear: both;	
+	margin:10% 3%;
+}
+
+#line {/*차가움과 2일전을 감싸주는 div*/
+
+	width:1000px;
+	height:80px;
+	float:left;
+}
+#line1 {/*차가움*/
+
+	width: 200px;
+	height : 20px;
+	margin : 50px 0 0 0;
+	float:left;
+	padding:0 0 0 50px;
+}
+#line2 {/*2일전*/
+
+	width: 100px;
+	height : 20px;
+	margin : 50px 0 0 0;
+	float:right;
+	padding:0 0px 0 0;
+}
+#storyboard{
+	border : 1px solid gray;
+	width:1000px;
+	height:800px;
+	clear: both;
+	
+	 
+}
+#bigdoorpic {
+	width:900px;
+	height:700px;
+	margin:40px;	
+}
+#clickcount{/*좋아요와 조회수 댓글 감싸주는div*/
+
+	width:50%;
+	height:5px;
+	margin:2px 10px ;
+}
+
+#intro{/*좋아요 부분과 글내용입력칸이 필요*/
+	border:1px solid grey;
+	width:1000px;
+	height:auto;
+	margin:50px 0 0 0;
+	font-size:12pt;	
+}
+
+
+
+/* 오른쪽 div시작 */
+
+#rightdiv {/*오른쪽 모든것을 감싸는 div*/
+
+	width:30%;
+	height:1200px;
+	float:right;
+	margin:-75% 1%;
+
+}
+#comment{/*라이언사진과 댓글쓰는 텍스트창을 감싸주는div*/
+
+	width:100%;
+	height:7%;
+	
+}
+#commentnext {/*댓글 달리는 창*/
+	border : 1px solid grey;
+	width:530px;
+	height:700px;
+
+}
+#mempic{/*라이언 이미지*/
+	
+	width:50px;
+	height:50px;
+	float: left;
+	margin: 0 3%;
+}
+#commentwrite{/*댓글쓰는 공간*/
+	
+	width:80%;
+	height:50px;
+	
+}
+
+
+
+#good1{/*오른쪽 맨 위 div*/
+	
+	width:570px;
+	height:100px;	
+	margin:0 ;
+}
+
+#heart {
+	width:20px;
+	height:20px;
+}
+
+#rightmempic {/*미니언즈 사진 */
+
+	width:10%;
+	height:10%;
+	float:left;
+	
+}
+#good1_3{
+	
+	margin:2% 0;
+}
+#good1_2_hi {	/*id가 들어가는 label*/
+
+	width:100px;
+	height:20px;
+	color:rgb(7, 96, 195);
+}
+
+
+#orderbutton {
+	
+	margin : 20px 0 0 0;
+	clear:both;
+	
+}
+#orderB{
+	
+	margin: 0 50px 0 130px;
+}
+
+/* 버튼효과1 */
+#orderA,
+#orderA::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#orderA {
+  background: none;
+  border: 1px solid #c5c2b7;
+  border-radius: 5px;
+  color: #000000; 
+  font-size: 10pt;
+  margin:0 0 0 50px;
+   
+  
+}
+
+
+#orderA:hover {
+  color: #2c81fc;
+}
+
+/* 버튼효과2 */
+#orderB,
+#orderB::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#orderB {
+  background: none;
+  border: 1px solid #c5c2b7;
+  border-radius: 5px;
+  color: #000000; 
+  font-size: 10pt;
+  margin:0 ;
+  float:right;
+    
+  
+}
+
+#orderB:hover {
+  color: #2c81fc;
+}
+/* -------- */

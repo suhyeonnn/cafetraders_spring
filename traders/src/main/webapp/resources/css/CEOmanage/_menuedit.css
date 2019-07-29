@@ -1,0 +1,162 @@
+@charset "EUC-KR";
+
+
+#main {
+	/*border:1px solid red;*/
+	margin: auto;
+	height: 1100px;
+	width: 1600px;
+}
+
+#main_left {
+	border: 0px solid red;
+	height: 1000px;
+	width: 800px;
+	float: left;
+}
+
+#main_rright {
+	border-left: 1px solid gray;
+	height: auto;
+	width: 770px;
+	margin: 20px 0 0 20px;
+	float: left;
+	padding: 20px 0 0 0;
+}
+
+#main_right {
+	border: 0px solid blue;
+	height: 1000px;
+	width: 750px;
+	margin: 0 0 0 20px;
+}
+
+/* 왼쪽에있는것들 ---------------------*/
+#main1 {
+	/*	border:1px solid red;*/
+	margin: 20px 0 0 0;
+	font-size: 20px;
+}
+
+#nametext {
+	margin: 0 0 5px 0;
+}
+
+#main_2pic {
+	/*border:2px solid skyblue;*/
+	width: 100%;
+	height: 500px;
+	background: #e4e4e4;
+}
+
+#addpic {
+	width: 100%;
+	height: 500px;
+}
+
+#main_left_B {
+	margin: 10px 0 10px 0;
+	text-align: right;
+}
+
+#m_left_b {
+	width: 100px;
+	height: 100px;
+	margin: 0 10px 0 10px;
+	font-size: 70px;
+}
+
+/* 오른쪽에있는것들 ---------------------*/
+#main_4 {
+	/*border:1px solid pink;*/
+	margin: 20px 0 10px 10px;
+	font-size: 20px;
+}
+
+#writefield {
+	width: 700px;
+	height: 200px;
+	margin: 20px 0 20px 0;
+}
+
+#main_5 {
+	border: 0px solid gray;
+	margin: 50px 0 10px 10px;
+	font-size: 20px;
+}
+
+#tag {
+	width: 700px;
+	height: 100px;
+	margin: 20px 0 20px 0;
+}
+
+#main5 {
+	/*border :1px solid blue;*/
+	margin: 20px 0 0 0;
+	font-size: 20px;
+}
+
+#all {
+	width: 700px;
+	height: 300px;
+}
+
+#main_6 {
+	/*border:3px solid yellow;*/
+	margin: 40px 0 10px 0;
+	text-align: center;
+}
+
+#writeB {
+	margin: 0 10px;
+	font-size: 15px;
+	height: 40px;
+	width: 100px;
+}
+
+#resetB {
+	margin: 0 10px;
+	font-size: 15px;
+	height: 40px;
+	width: 100px;
+}
+
+table.type09 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+}
+
+table.type09 thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+}
+
+table.type09 tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+
+table.type09 td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+#x {
+	width: 22px;
+	heigth: 22px;
+}
+
+span {
+	text-align: right;
+}

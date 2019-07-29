@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+@import
+	url('https://fonts.googleapis.com/css?family=Do+Hyeon|Indie+Flower|Ubuntu+Francois+One|Jockey+One|Julius+Sans+One|Noto+Sans+KR&display=swap');
+
+.clear{
+	clear:both;
+}
+html {
+   font-family: sans-serif;
+}
+
+body {
+
+   margin: 0;
+   padding: 0;
+  
+}
+#main_image {
+	
+	background-image: url('../../image/community/e1.jpg');
+	/*이미지를 백그라운드로삽입 no-repeat center 하면 가운데로 모이고 양사이드부터짤림*/
+	width: 100%;
+	height:600px;
+	left: 0;
+	backgroud-repaet: no-repeat;
+	background-size: cover;
+	}
+
+#textline{
+   padding: 100px 0 20px;
+   text-align: center;
+  
+}
+#h1{
+	position:absolute;
+	width:100%;
+	margin:5% 0;
+	color:#fff;
+	font-size:70pt;
+	text-align:center;
+	letter-spacing:2px;
+	z-index:4;
+	font-weight:light;
+}
+#h3{
+	position:absolute;
+	width:100%;
+	margin:15% 0 0 0;
+	color:#fff;
+	font-size:40pt;
+	text-align:center;
+	z-index:4;
+}
+
+	
+#main {
+	
+	margin:auto;
+	height:auto;
+	width:1600px;
+}
+
+#main_1 {/*필터부터 선택된 필터 단어가 들어가는 area까지 묶은 div*/
+	
+	margin:2% 0 0 0;
+}
+#place_fillter {
+   border: 1px solid black;
+   height: 200px;
+   text-align: center;
+   line-height: 11;
+   font-size: 20px;
+   margin-top: 300px;
+}
+#array_1{/*필터메뉴를 감싸주는 div*/
+	
+	float:left;
+	width:100%;
+//	margin: 0 10px;
+}
+#option_1,#option_2,#option_3{/*필터정렬*/
+	border:1px solid  rgb(7, 96, 195);
+	width:200px;
+	height:40px;
+	float:left;
+	text-align: center;
+	font-size: 15pt;
+	color:#000;
+	line-height: 40px;
+	
+	
+}
+
+#option_1:hover,#option_2:hover,#option_3:hover{
+	background: rgb(7, 96, 195);
+	transition-duration:0.4s; /*바탕색이 변경되는 시간을 늘려줌*/
+	color:#fff;
+	cursor:pointer;
+}
+#write{
+	margin:0 0 0 1200px;
+}
+#write_btn{
+	padding: 5px;
+	height: 30px;
+	border-radius: 3px;
+	width:200px;
+	height:40px;
+	border:0;
+	outline: 0;
+	margin:-10% 0 10% 0; 
+	float: right;
+	font-size: 15pt;
+	color:#fff;
+	background-color: rgb(7, 96, 195);
+	
+
+	
+}
+
+#array_2 {
+	border:1px solid black;
+	text-align:center;
+	margin:10px ;
+}
+
+#main_2 {
+
+	margin:10px 2px 10px 2px;
+	text-align:center;
+	
+}
+#main_2 ul{
+	
+	   text-align:center;
+}
+
+#main_2 li{
+   border:1px solid black;
+   width:330px;
+   height:380px;
+  
+   background:#FFF;
+   padding:20px 10px 10px 10px;
+   text-align:center;
+   position:relative;
+   float:left;
+   display:inline;
+   margin:10px 13px 10px 10px;
+}
+
+#mempic{
+
+   width:40px;
+   height:40px;
+   margin:2px 5px 5px 20px;
+   float:left;
+}
+#cus_id{/*게스트 id*/
+	font-weight:bold;
+	margin:0 70px;
+	width:200px;
+	
+	text-align: left;
+}
+#cus_tag{
+	margin:0 70px;
+	width:200px;
+	
+	text-align: left;
+	color: rgb(7, 96, 195);
+	
+}
+#picture{
+
+	width:250px;
+	height:200px;
+	border-radius:3%;
+	text-align:center;}
+
+#icon{
+
+width:30px; 
+height:30px;
+padding-left:5px;
+padding-right:5px;
+margin:5px 40px 5px 40px;
+}
+#comment{
+	border:1px solid black;
+	text-align: left;
+}

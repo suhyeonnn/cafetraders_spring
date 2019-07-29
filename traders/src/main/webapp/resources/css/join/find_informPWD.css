@@ -1,0 +1,149 @@
+@charset "EUC-KR";
+
+html {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+#f_title { /*회원정보입력*/
+	font-size: 24pt;
+	text-align: center;
+	margin: 3% 0 0 0;
+}
+
+#f_mainframe {/*헤더와 메인이미지 제외 전체프레임*/
+	width: 80%;
+	margin: 100px auto;
+	border: 1px solid grey;
+}
+
+#f2_frame {/*테이블 감싸고 있는div*/
+	text-align: center;
+}
+
+#write_id, #write_birth, #write_ph, #write_pw {
+	width: 250px;
+	color: rgb(172, 172, 172);
+	height: 40px;
+}
+
+#f_mainpic {
+	background-image:url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	width: 100%;
+	height: 600px;
+	left: 0;
+	backgroud-repaet: no-repeat;
+	background-size: cover;
+}
+#fimg_cover{/*사진*/
+	
+   position: absolute;
+   height: 600px;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.4);                                                                 
+   z-index:1;
+}
+#s_menu{/*두개의 메뉴를 감싸는 전체 div*/
+
+	width:30%;
+	position:absolute;
+	float:left;
+	z-index: 3;
+	margin: 26% 35% ; 
+	text-align: center;
+}
+#s_menu ul{
+	
+	width:100%;
+	text-align: center;
+	line-height: 50px;/*수평으로 텍스트를 가운데 오게함*/
+	z-index: 3;
+}
+
+#s_menu ul li{/*일대일문의, 자주하는 질문 각 객체속성*/
+	border:2px solid rgb(79,108,79) ;
+	float:left;
+	color: #fff;
+	width:200px;
+	height:50px;
+	text-align: center;
+	font-size: 18pt;
+	margin: 0;
+	padding:2px 0;
+	
+}
+#list2{
+	background:  rgb(79,108,79);
+}
+#s_menu ul li:hover{
+	background: rgb(79,108,79);
+
+	transition-duration:0.4s; /*바탕색이 변경되는 시간을 늘려줌*/
+	
+	
+}
+#list1 a:link {color:#fff; text-decoration: none;}/*밑줄없앰*/
+#list1 a:visited{color:#fff; text-decoration: none; }/*방문후 글 색 변경없음*/
+#list1 a:hoever{transition-duration:0.3s; color:#fff;}
+#s_main{
+	
+	margin:0 200px;
+}
+
+#f_login { /*로그인 텍스트*/
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	font-size: 50pt;
+	margin: 250px 0;
+	text-align: center;
+	z-index: 4;
+	letter-spacing: 5px;
+}
+
+#f_login2 { /*welcome*/
+	position: absolute; /*relative로 주면 margin을 줄때 헤더가 움직임*/
+	color: #fff;
+	font-size: 20pt;
+	text-align: center;
+	margin: 380px 0;
+	width: 100%;
+	z-index: 4;
+}
+
+table {
+	margin: 3% 20%;
+	width: 70%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	height: 40px;
+	width: 200px;
+	text-align: left;
+	font-size: 15pt;
+	border-spacing: 30px;
+}
+
+#enter {
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	font-size: 12pt;
+	margin: 0 40% 0 40%;
+	border-radius: 3px;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	background-color: rgb(7, 96, 195);
+	cursor: pointer;
+}
+

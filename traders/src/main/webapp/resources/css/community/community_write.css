@@ -1,0 +1,134 @@
+@charset "UTF-8";
+body{
+	margin:0;
+}
+#background {
+	/*border:1px solid black;*/
+	background-image:url("https://www.spcmagazine.com/wp-content/uploads/2018/08/SPC삼립-카페스노우-팝업스토어-내부_1.jpg");
+	background-repeat: no-repeat;
+	background-size : 100% 100%;	
+	width:100%;
+	height:500px;
+	repeat:none;
+}
+
+#main {
+	border:0px solid red;
+	margin:auto;
+	height:1000px;
+	width:1600px;
+	padding:30px  0 0 0;
+}
+#main_left{
+	border:0px solid red;
+	height:1000px;
+	width:800px;
+	float:left;
+}
+#main_rright{
+	border-left:1px solid gray;
+	height:1000px;
+	width:770px;
+	margin:0 0 0 20px;
+	float:left;
+	padding:20px 0 0 0 ;
+}
+#main_right{
+	border:0px solid blue;
+	height:1000px;
+	width:750px;
+	margin:0 0 0 20px;
+	
+	
+}
+
+/* 왼쪽에있는것들 */
+
+main_left_pro {
+	/*border:3px solid black;	*/
+	margin:30px 0 0 0;
+}
+#main_1_id {	
+	width:70px;
+	height:20px;
+	
+	margin:0 0 10px 10px ;
+}
+#main_2pic{
+	/*border:2px solid skyblue;*/
+	width:100%;
+	height:500px;
+	background:#e4e4e4;	
+}
+
+#addpic{
+	width:100%;
+	height:500px;
+	
+}
+#main_left_B{
+	
+	margin:10px 0 10px 0;
+		text-align:right;
+	
+}
+#m_left_b{
+	width:100px;
+	height:50px;
+	margin:0 10px 0 10px;
+	font-size:20px;
+}
+
+/* 오른쪽에있는것들 */
+
+#main_3 {
+	/*border:3px solid blue;*/
+	margin:50px 0 40px 0px;
+	font-size:20px;
+	text-align:center;
+}
+
+#mempic{
+	width:60px;
+	height:60px;
+	margin:15px 0 0 10px ;
+}
+
+#main_4{
+	/*border:1px solid pink;*/
+	margin:50px 0 10px 10px;
+	font-size:20px;	
+}
+
+#writefield{
+	width:700px;
+	height:200px;
+	margin: 20px 0 20px 0;
+}
+#main_5 {
+	border:0px solid gray;
+		margin:50px 0 10px 10px;
+		font-size:20px;
+	
+}
+#tag {
+	width:700px;
+	height:100px;
+	margin: 20px 0 20px 0;
+}
+
+#main_6 {
+	/*border:3px solid yellow;*/
+		margin:40px 0 10px 0;
+		text-align:center;
+	
+}
+#writeB {
+	margin:0 10px 0 10px;
+	font-size:20px;
+}
+#resetB{
+	margin:0 10px 0 10px;
+		font-size:20px;
+}
+

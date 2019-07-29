@@ -1,0 +1,355 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+@import
+	url('https://fonts.googleapis.com/css?family=Do+Hyeon|Indie+Flower|Ubuntu+Francois+One|Jockey+One|Julius+Sans+One|Noto+Sans+KR&display=swap')
+	;
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	padding:0;
+	margin:-30px 0 0 0;
+}
+
+#top1 { /*메인의 슬라이드가 될 부분(슬라이드가 될 주제는 생각해보기)*/
+	background-image: url(../image/home/e2.jpg);
+	width: 100%;
+	height: 500px;
+	top: 0;
+	margin-top: 2%;
+	padding: 0;
+	backgroud-position: center;
+	background-size: cover;
+}
+
+#top2 { /*홈페이지 소개배너->클릭하면 홈페이지소개페이지로 이동 */
+	width: 100%;
+	height: 140px;
+	background-color: rgb(7, 96, 195);
+}
+
+#con1 { /*파랑색 div안에들어가는 폰트속성*/
+	color: #fff;
+	font-size: 50px;
+
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30pt;
+	margin: 10px 20px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#con2 {
+	
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 18pt;
+	margin: 10px 0 20px 20px;
+	color: #fff;
+}
+
+#main2 { /*처음으로 두개로 나뉜 메인메뉴 전체div*/
+	width: 100%;
+	height: 31.25em;
+	margin-top: 0;
+	padding: 0;
+}
+
+#leftbox { /*두개로 나뉜 div에서 왼쪽편*/
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#main2pic { /*왼쪽편에 들어갈 이미지*/
+	width: 100%;
+	height: 100%;
+}
+
+#rightbox { /*두개로 나뉜 div에서 오른쪽편*/
+	font-family: 'Do Hyeon', sans-serif;
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	margin-top: 0;
+	color: #000;
+}
+
+#font1 { /*메뉴소개에 들어갈 영폰트속성*/
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30pt;
+	font-weight: bold;
+	color: #000;
+}
+
+button { /*전체메뉴에 들어가는 버튼 속성*/
+	font-family: 'Do Hyeon', sans-serif;
+	background: #000;
+	color: #fff;
+	border: none;
+	position: relative;
+	height: 2em;
+	width: 150px;
+	font-size: 1em;
+	padding: 0 2em;
+	cursor: pointer;
+	transition: 800ms ease all;
+	outline: none;
+}
+
+button:hover {
+	background: #fff;
+	color: #000;
+}
+
+button:before, button:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2px;
+	width: 0;
+	background: #000;
+	transition: 400ms ease all;
+}
+
+button:after {
+	right: inherit;
+	top: inherit;
+	left: 0;
+	bottom: 0;
+}
+
+button:hover:before, button:hover:after {
+	width: 100%;
+	transition: 800ms ease all;
+}
+
+.main3 { /*sub이미지 들어가는 div*/
+	padding: 0;
+	width: 100%;
+	height: 44em;
+	background-image: url(../image/home/main2_6.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#main3pic { /*서브이미지*/
+	width: 100%;
+	height: 100%;
+}
+
+.sub_logo2 { /*서브 이미지 들어가는 곳에 폰트속성*/
+	width: 100%;
+	height: 30%;
+	color: white;
+	font-weight: bolder;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-size: 8vw;
+	z-index: 2;
+	text-align: center;
+	letter-spacing: 1vw;
+	margin-top: 23%;
+	right: 50%;
+	left: 50%;
+}
+
+#sub_logotop {
+	border: 0.4vw solid white;
+	color: white;
+	font-size: 3vw;
+	letter-spacing: 0.2vw;
+	width: 12%;
+	text-align: center;
+	margin: 0 44%;
+}
+
+.main4 {
+	width: 100%;
+	height: 200%;
+	margin-top: -1%;
+}
+
+#main4pic {
+	width: 100%;
+	height: 100%;
+}
+
+.leftbox2 {
+	font-family: 'Do Hyeon', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	height: 31.25em;
+	float: left;
+	text-align: center;
+	background-color: white;
+	color: #000;
+}
+
+.rightbox2 {
+	width: 50%;;
+	height: 31.25em; /*500px*/
+	float: right;
+	text-align: center;
+	margin-top: 0;
+}
+
+#font2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30pt;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+
+#sub_main3 {
+	width: 100%;
+	min-height: 44em;
+	margin-top: 20%;
+	background-image: url(../image/home/event1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#font3 {
+	width: 100%;
+	height: 30%;
+	color: white;
+	font-weight: bolder;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-size: 8vw;
+	z-index: 2;
+	text-align: center;
+	letter-spacing: 0.2vw;
+	margin-top: 30%;
+	right: 50%;
+	left: 50%;
+}
+
+#event2 {
+	width: 100%;
+	height: 700px;
+	font-size: 46pt;
+	font-weight: lighter;
+}
+
+#sub_cafe {
+	font-family: 'Francois One', sans-serif; /*영어폰트*/
+	text-align: center;
+	margin-top: 2%;
+	letter-spacing: 2px;
+}
+
+#sub_title {
+	font-size: 17pt;
+	font-weight: lighter;
+	font-family: 'Do Hyeon', sans-serif;
+	text-align: center;
+	margin-top: -9%;
+}
+
+#sub_title:after { /*밑줄치는 속성*/
+	content: "";
+	display: block;
+	width: 100px;
+	border-bottom: 2px solid black;
+	margin: 30px 48%;
+}
+
+#leftbox3 { /*사진 두개 겹쳐있는 메인*/
+	width: 40%;
+	height: 50%;
+	margin: 7% 10%;
+}
+
+#rightbox3 { /*사진 두개 겹쳐있는 메인*/
+	width: 40%;
+	height: 50%;
+	margin: 7% 10%;
+}
+
+#main5pic { /*두개겹쳐져있는 사진에처 두번째*/
+	width: 40%;
+	height: 50%;
+	position: absolute;
+	z-index: 1; /*겹쳐진 사진이 아래로 내려가게 함*/
+	margin: 5% 37%;
+	/*----------트랜지션 (애니메이션 효과속성)----------------*/
+	transform: scale(1); /*원래이미지크기를 지정해줌*/
+	transition: .3s; /*애니메이션이 진행되는 속도는 0.3초*/
+}
+
+#main5pic:hover {
+	/*마우스를 올리면 원래 이미지에서 1.02배 커진 이미지로 된다. */
+	transform: scale(1.02);
+}
+
+#main6pic { /*두개겹쳐져있는 사진에처 첫번째*/
+	width: 40%;
+	height: 50%;
+	position: absolute; /*z-index를 사용하려면 필히 써줘야함*/
+	z-index: 2; /*겹쳐진 사진이 위로 올라오게 함*/
+	margin:-30% 0;
+	/*----------트랜지션 (애니메이션 효과속성)----------------*/
+	transform: scale(1);
+	transition: .3s;
+}
+
+#main6pic:hover {
+	transform: scale(1.02);
+}
+
+#sub1 { /*QnA부분*/
+	font-family: 'Do Hyeon', sans-serif;
+	color: #fff;
+	font-size: 20pt;
+	z-index: 99;
+	margin: 28% 50%;
+	position: absolute;
+	letter-spacing: 2px;
+	width:150px;
+}
+
+#sub2 { /*공지사항부분*/
+	font-family: 'Do Hyeon', sans-serif;
+	color: #fff;
+	font-size: 20pt;
+	z-index: 99;
+	margin: -10% 17%;
+	position: absolute;
+	letter-spacing: 2px;
+}
+#sub1 a:link,#sub2 a:link { color: #fff; text-decoration: none;}
+#sub1 a:visited,#sub2 a:visited { color:#fff; text-decoration: none;}
+#sub1 a:hover,#sub2 a:hover { transition-duration:0.3s;  text-decoration:none;}
+#gap {
+	font-family: 'Amatic SC', cursive;
+	width: 100%;
+	height: 100%;
+	margin-top: 8%;
+	height: 1em;
+	font-size: 40pt;
+	text-align: center;
+	font-weight: bold;
+	padding: 0 0 1em 0;
+	color: #000;
+}
+
+#b_img {
+	float: left;
+	width: 25%;
+	height: 20em;
+}
+
+.clear {
+	clear: both;
+}
