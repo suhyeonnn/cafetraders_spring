@@ -1,9 +1,5 @@
 package com.traders.controller;
 
-import java.io.File;
-import java.sql.Date;
-import java.util.HashMap;
-import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -15,14 +11,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.traders.common.Commons;
-import com.traders.common.MyCommon;
-import com.traders.data.vo.CEOVO;
 import com.traders.data.vo.MemberVO;
 import com.traders.service.IMemberSVC;
 
 @Controller
 public class MemberController {
-		@Autowired(required=false)
+		@Autowired
 		private IMemberSVC memberSvc;
 		
 //		메인페이지 매핑
