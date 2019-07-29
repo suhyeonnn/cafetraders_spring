@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\spring\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\525163016.index
+\traders\src\main\java
